@@ -152,3 +152,10 @@ To see an example of a ballot, run:
 ```
 cd vote && ./run.sh
 ```
+
+---
+
+# Notes
+- When using the .in file to enter records into the program, delete the '.private' and '.public' at the end of each value. Don't have to use quotes for records.
+- When keying in records into CLI, don't have to delete the ".public" and ".private". Include quotes for keying in records
+    - eg: "{owner: aleo1752ryjqhanf8m7dxn2dxralh8vuszp20ywqgttl68ue36kgsg5zs28j6yg.private}"
